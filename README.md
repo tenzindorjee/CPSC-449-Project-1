@@ -6,8 +6,9 @@ Winson Gin: Dev 1 - Posting
 
 Matthew Nguyen nmatthew45@csu.fullerton.edu: Dev 2 - Voting
 
-Foreman commands:
+Foreman command:
 
 **foreman start -m all=3**
 
+Seperate Terminal Run:
 **ulimit - n 81982 && caddy**
