@@ -1,6 +1,6 @@
 # CPSC449PROJECT1
 
-Tenzin Dorjee: Ops
+Tenzin Dorjee tenzin@csu.fullerton.edu: Ops
 
 Winson Gin: Dev 1 - Posting
 
