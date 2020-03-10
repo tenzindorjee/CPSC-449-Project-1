@@ -12,9 +12,9 @@ Endpoints:
 
 http://localhost:5000/ - home page. View all posts
 
-/total/&lt;int:id&gt; - Report the number of upvotes and downvotes for a post using post id
-
 /create - create a post. requires title, community, text
+
+/total/&lt;int:id&gt; - Report the number of upvotes and downvotes for a post using post id
 
 /upvote/&lt;int:id&gt; - Upvote a post based on post ID
 
