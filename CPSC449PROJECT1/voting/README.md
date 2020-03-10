@@ -18,7 +18,7 @@ http://localhost:5000/ - home page. View all posts
 
 /upvote/&lt;int:id&gt; - Upvote a post based on post ID
 
-/downvote/&lt;int:id&gt;v - Downvote a post based on post ID
+/downvote/&lt;int:id&gt; - Downvote a post based on post ID
 
 /top/&lt;int:n&gt; - List n top-scoring posts to any community
 
