@@ -2,7 +2,7 @@
 
 Tenzin Dorjee tenzin@csu.fullerton.edu: Ops
 
-Winson Gin: Dev 1 - Posting
+Winson Gin winsongin@csu.fullerton.edu: Dev 1 - Posting
 
 Matthew Nguyen nmatthew45@csu.fullerton.edu: Dev 2 - Voting
 
