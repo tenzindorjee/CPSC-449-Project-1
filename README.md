@@ -10,6 +10,6 @@ Foreman command:
 
 **foreman start -m all=3**
 
-Seperate Terminal Run:
+Separate Terminal Run:
 
 **ulimit - n 81982 && caddy**
