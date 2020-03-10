@@ -1,3 +1,2 @@
 web1: cd voting && gunicorn3 voting:app
 web2: cd post && gunicorn3 posting:app
-caddy:ulimit -n 8192 && caddy
