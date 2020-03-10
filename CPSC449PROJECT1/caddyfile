@@ -1,0 +1,12 @@
+localhost:2015/posts{
+    log stdout
+    root{%SITE_ROOT%}
+    proxy / https://127.0.0.1:5000/ https://127.0.0.1:5001/ https://127.0.0.1:5002/
+}
+
+
+localhost:2015/votes{
+    log stdout
+    root{%SITE_ROOT%}
+    proxy / https://127.0.0.1:5004/  https://127.0.0.1:505/  https://127.0.0.1:5106/
+}
