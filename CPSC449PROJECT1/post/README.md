@@ -13,6 +13,7 @@
 3. Enter the following command: **flask run**
 4. In order to test the microservice, you can either use the scripts provided or test using your own curl commands
   * **Note:** You must open one terminal window for **flask run** command and another terminal window for testing the scripts or **CURL** commands
+  * Examples of **CURL** commands can be found in the scripts (.sh) files inside the scripts folder
   * Command to run a script: **sh filename.sh**
 
   
