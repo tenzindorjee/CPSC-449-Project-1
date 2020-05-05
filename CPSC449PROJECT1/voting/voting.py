@@ -78,7 +78,7 @@ def return_top_n(n):
 
 
 # Filters posts based on query parameters and calculate score. Also sort by score
-# Sample curl request: curl -X GET http://localhost:5000/search?title=example_title&community=example_community&text=example_text
+# Sample curl request: curl -X GET 'http://localhost:5000/search?title=example_title&community=example_community&text=example_text'
 @app.route('/search', methods=['GET'])
 def post_filter():
     return filter_posts(request.args)
