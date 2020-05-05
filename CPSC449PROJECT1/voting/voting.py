@@ -33,7 +33,7 @@ def report_total(id):
     return queries.report_total(id=id), status.HTTP_200_OK
 
 # Create a post in order to upvote/downvote it
-# Sample curl request: curl -X POST http://localhost:5000/upvote/1 -d {"title":"example_title","community":"example_community","text":"example_text"}
+# Sample curl request: curl -X POST http://localhost:5000/create -d "title=example_title&community=example_community&text=example_text"
 @app.route('/create', methods=['GET','POST'])
 def create_post():
     if request.method == 'GET':
